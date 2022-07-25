@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" 
+    integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" defer></script>
+    <script src="./products.js" defer></script>
+</head>
+<body>
+    <div class="sidebar sidebar--products">
+        <a class="logo" href="index.html">GTech</a>
+          <div class="sidebar__links">
+            
+            <div class="column column--first" id="hidden-links">
+                <a class="sidebar__link" href="products.html">store</a>
+                <a class="sidebar__link" href="products.html">electronics</a>
+                <a class="sidebar__link" href="#">support</a>
+            
+            </div>
+            <div class="column column--second" id="hidden-links">
+                <a class="sidebar__link icon" href="#"><i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+                <a class="sidebar__link icon" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+            </div>
+          </div>
+          <a class="toggle-button" href="#" class="icon" onclick="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    <section class="products-intro">
+        <h1 class="products-title title--one">Lorem, ipsum.</h1>
+        <h1 class="products-title title--two">Lorem, ipsum.</h1>
+        <h1 class="products-title title--three">Lorem, ipsum.</h1>
+        <p class="products-subtitle">dolor sit.</p>
+        <div><img class="products-intro__img" src="images/iPhone-12-PNG-Transparent-Image(1).png" alt="iphones"></div>
+    </section>
+
+    <section class="panel panel1">
+        <div class="panel__content">
+            <div class="panel__wrapper">
+                <p class="panel__text">
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, omnis dolore! </p>
+                <p class="panel__text">
+                  Lorem, <span class="panel__text panel__span"> ipsum dolor.</span> Blanditiis sequi voluptatem vitae. 
+                    <span class="panel__text panel__span"> Natus, 
+                      pariatur debitis.</span> Adipisicing elit. </p>
+                <p class="panel__text">Totam nihil dolorem magnam non voluptas! </p>
+                
+            </div>  
+        </div>
+    </section>
+
+    <section class="panel panel2">
+        <div class="flex-container">
+            <div>
+                <h2 class="panel2__text panel2__text--title"><span class="panel2__span">Lorem & Lorem, ipsum.</span>
+                </h2>
+                <p class="panel2__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sequi voluptatem vitae tempora natus, 
+                  pariatur debitis non quod, dolore totam rem maiores laborum aspernatur perferendis officiis culpa? </p>
+            </div>
+            <div><img class="panel2__img" src="images/iPhone-12-PNG-Images.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="panel panel3">
+        <p class="panel3__text">Lorem ipsum  <br> dolor sit amet <br> wconsectetur.</p>
+        <div class="flex-container">
+            <div><img class="panel3__img panel3__img1" src="images/61d2f93392b57c0004c64747.png" alt=""></div>
+            <div><img class="panel3__img panel3__img2" src="images/585fd18fcb11b227491c35d3.png" alt=""></div>
+
+            <div>
+                <div><img class="panel3__img panel3__img1--s" src="images/61d2f93392b57c0004c64747.png" alt=""></div>
+                <div><img class="panel3__img panel3__img2--s" src="images/585fd18fcb11b227491c35d3.png" alt=""></div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="dark-section">
+        <div class="flex-container">
+            <div><img class="dark-section__img" src="images/alexandru-acea-qEXFE5h0e8g-unsplash.jpg" alt="">
+                <p class="dark-section__text" id="middle-paragraph">Lorem ipsum dolor sit?</p></div>
+            <div class="dark-section__text">
+                <h2><span class="dark-section__span">Lorem, ipsum.</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                   <span class="dark-section__span">Lorem.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, cupiditate. <span class="dark-section__span">Lorem, ipsum.</span> Lorem ipsum dolor sit amet consectetur. <br> <br id="paragraph-trigger">
+                   Lorem ipsum dolor sit amet consectetur.</p>
+                   
+            </div>
+        </div>    
+
+        <div class="flex-container" id="paragraph-trigger" >
+            <div class="dark-section__text">
+                <div><img id="landscape-img" class="dark-section__img dark-section__img--first " src="images/ryan-lum-1ak3Z7ZmtQA-unsplash.jpg" alt="Photo by Ryan Lum on Unsplash"></div>
+                <p class="dark-section__text" id="last-paragraph">Portrait or landscape?</p>
+                <p class="dark-section--paragraph">Lorem, ipsum. 
+                <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. At necessitatibus quis dicta id reprehenderit quidem?</p>
+            </div>
+            <div><img class="dark-section__img" id="closing-img" src="images/kimson-doan-HD8KlyWRYYM-unsplash.jpg" 
+                alt="Photo by Kimson Doan on Unsplash">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="row grid-row">
+            <div class="col-1">
+              <ul>
+                <li class="footer__title">Overview</li>
+                <li><a href="#">Feature Tour</a></li>
+                <li><a href="#">Sell Online</a></li>
+                <li><a href="#">Online Store</a></li>
+                <li><a href="#">Store Design</a></li>
+                <li><a href="#">Shopping Cart</a></li>
+                <li><a href="#">Ecommerce Hosting</a></li>
+                <li><a href="#">Marketing & SEO</a></li>
+                <li><a href="#">Mobile Commerce</a></li>
+                <li><a href="#">App Store</a></li>
+                <li><a href="#">Feature List</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul>
+                <li class="footer__title">Resources</li>
+                <li><a href="#">GPhone music</a></li>
+                <li><a href="#">GPhone TV</a></li>
+                <li><a href="#">GPhone Card</a></li>
+                <li><a href="#">GPhone News</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">App Store</a></li>
+                <li><a href="#">SEO Strategy</a></li>
+                <li><a href="#">Forums Help</a></li>
+                <li><a href="#">Community Outreach</a></li>
+                <li><a href="#">Store theme</a></li>
+              </ul>
+            </div>
+            <div class="col-3">
+              <ul>
+                <li class="footer__title">GPhone Store</li>
+                <li><a href="#">Find a store</a></li>
+                <li><a href="#">Shopping Help</a></li>
+                <li><a href="#">Financing</a></li>
+                <li><a href="#">GPhone in trade</a></li>
+                <li><a href="#">GPhone Camp</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Order Status</a></li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li class="footer__title">Contact Us</li>
+                <li><a href="#">send us an email</a></li>
+                <li><a href="#">give us a call</a></li>
+              </ul>
+              <ul>
+                <li class="footer__title">Social</li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Google+</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row row--last">
+            <p class="footer__paragraph">Copyright © 2022 Gphone Inc. All rights reserved.</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Sales and Refunds</a>
+            <a href="#">Term of Use</a>
+          </div>
+        </div>
+      </footer>
+
+    
+</body>
+</html>
